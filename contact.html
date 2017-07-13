@@ -1,10 +1,90 @@
+
 <link rel="index.html" href="Work.html">
 <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" type="text/css" href="styles.css" />
  <section id="contact">
      <h1>Contact</h1>
  </section>
+<body>
+	
+
  <p>
- 	Tele: 06948348248
+ 	Tele: +44 7502342964
  	Email: alex.low@mail.com
  	
  </p>
+<p>Enter your contact details to schedule a call </p>
+
+<input id="letter">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("letter").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (!isNaN(x) ) {
+        text = "Numbers and special characters not accepted!";
+    } else {
+        text = "Name accepted, Thank you!";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+<p>Phone Number </p>
+
+<input id="letter">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("letter").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (!isNaN(x) ) {
+        text = "Numbers and special characters not accepted!";
+    } else {
+        text = "Name accepted, Thank you!";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+ <nav>
+              <ul>
+                  <li>
+                  	<a href="about.html">About</a>
+                  </li>
+                  <li>
+                  	<a href="work.html">Work</a>
+                  </li>
+                  <li> 
+                    <a href="contact.html">Contact</a>
+                  </li>
+                  <li>
+                  	<a href="index.html">Home</a>
+                  </li>
+              </ul>
+          </nav>
+
+<img src="https://images.genius.com/df91da4c0c20709e276c25f1bb6ff87f.640x640x1.jpg" id="change" onmouseover="rollimage()" onmouseout="rolloutimage()">
+</body>
+</html> 
+
+</body>
+ <script src="functions.js" type="text/javascript"></script>
+</html> 
+</body>
